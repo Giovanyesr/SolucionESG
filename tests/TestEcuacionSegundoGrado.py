@@ -12,7 +12,7 @@ class TestEcuacionSegundoGrado(unittest.TestCase):
         b= 2
         c= 1
         resultadoEsperadoRaiz1 = -1
-        resultadoEsperadoRaiz2 = -2
+        resultadoEsperadoRaiz2 = -1
 
         #do
         resultadoActualRaiz1, resultadoActualRaiz2 = self.calculoRaices.calculoESG(a,b,c)
